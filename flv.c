@@ -31,6 +31,7 @@ typedef struct
     uint Reserved;
 } TAG_HEADER;
 
+//大端字节序的数据左移后一步步转换计算出实际算术值
 uint reverse_bytes(byte *p, char c)
 {
     int r = 0;
